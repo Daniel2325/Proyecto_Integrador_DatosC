@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background:
+		url("https://www.truecommerce.com/assets/wp-content/uploads/2017/08/trading-network-FINAL.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+.nombres {
+	text-align: center;
+	color: white;
+}

@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background: url("http://www.fao.org/uploads/pics/FAOSTAT_08.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo {
+	font-weight: 600;
+	color: #1a2537;
+	font-size: 30px;
+	padding: 0 0 0 20px;
+}
+
+}
+form.fo {
+	background: rbga(0, 0, 0, 0.2);
+	margin-top: 150px;
+}
+
+@media ( min-width :700px) {
+	form.fo {
+		background: rbga(0, 0, 0, 0.2);
+		margin-top: 50px;
+	}
+	.main {
+		background: rgba(0, 0, 0, 0.2);
+		margin: auto;
+		width: 1000px;
+		margin-top: 50px;
+		border-radius: 2%;
+		color: black;
+	}
+}
+
+.link {
+	text-decoration: none;
+	color: #1a2537;
+	font-weight: 600;
+}
+
+.headerImg {
+	margin-left: 390px;
+	padding-top: 12px;
+}
